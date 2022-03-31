@@ -30,8 +30,10 @@ nav {
     grid-area: right;
 }
 
-#otter {
-    width: 50%;
+.circle {
+    width: 50vmin;
+    height: 50vmin;
     border-radius: 50%;
     margin-top: 12.5%;
 }
+
