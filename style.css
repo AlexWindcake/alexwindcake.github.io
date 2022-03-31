@@ -28,6 +28,7 @@ nav {
 
 .right {
     grid-area: right;
+    text-align: center;
 }
 
 .circle {
@@ -35,5 +36,6 @@ nav {
     height: 50vmin;
     border-radius: 50%;
     margin-top: 12.5%;
+    object-fit: cover;
 }
 
