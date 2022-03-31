@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Kufam:wght@600&display=swap');
+html,
+body {
+    margin: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+nav {
+    font-family: "kufam", sans-serif;
+    font-size: 5rem;
+    background-color: #a0b5b6;
+    padding-left: 1rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "left right";
+}
+
+.left {
+    grid-area: left;
+    text-align: center;
+}
+
+.right {
+    grid-area: right;
+}
+
+#otter {
+    width: 50%;
+    border-radius: 50%;
+    margin-top: 12.5%;
+}
